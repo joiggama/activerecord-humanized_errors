@@ -41,7 +41,7 @@ Now you can make use of the humanized_errors method:
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/activerecord-humanized_errors/fork )
+1. Fork it ( http://github.com/joiggama/activerecord-humanized_errors/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
