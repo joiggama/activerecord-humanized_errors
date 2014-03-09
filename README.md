@@ -28,17 +28,16 @@ Let's say, you have a model like this:
 
 Then, on rails console you attempt to create a new user:
 
-> Loading development environment (Rails 4.0.3)
-> irb(main):001:0> User.create
-> irb(main):002:0> User.create
->  (0.2ms)  BEGIN
->  (0.2ms)  ROLLBACK
-> => #<User id: nil, name: nil, email: nil, created_at: nil, updated_at: nil>
+    Loading development environment (Rails 4.0.3)
+    irb(main):001:0> User.create
+      (0.2ms)  BEGIN
+      (0.2ms)  ROLLBACK
+    => #<User id: nil, name: nil, email: nil, created_at: nil, updated_at: nil>
 
 Now you can make use of the humanized_errors method:
 
-> irb(main):003:0> _.humanized_errors
-> => "Name can't be blank, Email can't be blank"
+    irb(main):002:0> _.humanized_errors
+    => "Name can't be blank, Email can't be blank"
 
 ## Contributing
 
