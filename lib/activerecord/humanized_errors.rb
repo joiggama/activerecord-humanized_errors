@@ -2,6 +2,8 @@ module ActiveRecord
 
   module HumanizedErrors
     def humanized_errors
+      errors.clear
+      send :run_validations!
       errors.full_messages.join ', '
     end
   end
