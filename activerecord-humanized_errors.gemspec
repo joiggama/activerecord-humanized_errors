@@ -6,7 +6,6 @@ require 'activerecord/humanized_errors/version'
 Gem::Specification.new do |spec|
   spec.name          = 'activerecord-humanized_errors'
   spec.version       = ActiveRecord::HumanizedErrors::VERSION
-  spec.date          = '2014-03-08'
   spec.authors       = 'Ignacio Galindo'
   spec.email         = 'joiggama@gmail.com'
   spec.summary       = 'Adds humanized error messages to ActiveRecord models'
@@ -19,6 +18,10 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.5'
-  spec.add_development_dependency 'rake',    '~> 0'
+  spec.add_development_dependency 'bundler',      '>= 1.0'
+  spec.add_development_dependency 'rake',         '>= 10.0.0'
+
+  spec.add_development_dependency 'activerecord', '>= 2.3.18', '~> 4.0.4'
+  spec.add_development_dependency 'sqlite3',      '~> 1.3.9'
+  spec.add_development_dependency 'rspec',        '~> 2.14.1'
 end
