@@ -41,7 +41,7 @@ Now you can make use of the humanized_errors method:
 
 ## Compatibility
 
-Preferred used on rails or activerecord >= 4
+Preferred used on rails or activerecord `>= 3.0.0` and `~> 4.0.4` 
 
 Supports rails 2.3.18+, locking to [v1.1.x](../../releases/tag/v1.1.0)
 
