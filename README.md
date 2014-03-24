@@ -39,6 +39,12 @@ Now you can make use of the humanized_errors method:
     irb(main):002:0> _.humanized_errors
     => "Name can't be blank, Email can't be blank"
 
+## Compatibility
+
+Preferred used on rails or activerecord >= 4
+
+Supports rails 2.3.18+, locking to [v1.1.x](../../releases/tag/v1.1.0)
+
 ## Contributing
 
 1. Fork it ( http://github.com/joiggama/activerecord-humanized_errors/fork )
