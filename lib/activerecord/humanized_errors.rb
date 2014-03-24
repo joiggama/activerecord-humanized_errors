@@ -1,3 +1,5 @@
+require 'active_support/concern'
+
 module ActiveRecord
 
   module HumanizedErrors
@@ -7,8 +9,6 @@ module ActiveRecord
     end
   end
 
-  Base.class_eval do
-    include HumanizedErrors
-  end
-
 end
+
+ActiveRecord::Base.send :include, ActiveRecord::HumanizedErrors
