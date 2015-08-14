@@ -4,7 +4,7 @@ module ActiveRecord
 
   module HumanizedErrors
     def humanized_errors
-      valid?
+      valid? unless errors.present?
       errors.full_messages.join ', '
     end
   end
