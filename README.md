@@ -1,5 +1,7 @@
 # Activerecord::HumanizedErrors
 
+[![Join the chat at https://gitter.im/joiggama/activerecord-humanized_errors](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/joiggama/activerecord-humanized_errors?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Adds humanized error messages to ActiveRecord models, not rocket science at all.
 
 ## Installation
